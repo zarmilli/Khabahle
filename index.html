@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khabahle Electrical and Services</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Khabahle Electrical and Services</div>
+            <ul class="nav-links">
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Our Projects</a></li>
+                <li><a href="#quote">Get Quote</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <div class="close-btn">&times;</div>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Powering tomorrow, today</h1>
+            <a href="#services" class="btn">View Services</a>
+        </div>
+    </section>
+    <section id="about">
+        <div class="about-content">
+            <h2>About Us</h2>
+            <p>
+                Welcome to Khabahle Electrical & Services, your premier destination for cutting-edge electrical solutions. Specializing in the installation of inverters, solar panels, and a range of electrical equipment, we're committed to powering your spaces efficiently and sustainably.
+With a dedicated team of skilled technicians and engineers, we design and install custom solar energy systems tailored to meet your specific needs. From consultation to maintenance, we're your trusted partner in transitioning to clean, renewable energy.
+            </p>
+        </div>
+    </section>
+    <section id="video-background">
+        <div class="video-overlay">
+            <h2>Powering tomorrow, today</h2>
+            <p> Our mission is to transform homes sustainably. With cutting-edge solar panels and energy-efficient solutions, we power your home or your business  while minimizing your carbon footprint. Join us in creating a greener future!</p>
+        </div>
+        <video autoplay muted loop playsinline id="background-video">
+            <source src="images/spanner.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
+        </video>
+    </section>
+    <section id="text">
+        <div class="text-content">
+            <h2>Our Services</h2>
+            <p>
+                Click on service to get a quote
+            </p>
+        </div>
+    </section>    
+    <section id="services">
+        <div class="services-content">
+            <div class="service" onclick="scrollToQuote()">
+                <img src="images/interior2.png" alt="Service 1">
+                <h3>Residential Electrical Services</h3>
+                <p>Comprehensive electrical services for residential properties, ensuring safety and efficiency in every installation and repair.</p>
+            </div>
+            <div class="service" onclick="scrollToQuote()">
+                <img src="images/inverter.jpg" alt="Service 2">
+                <h3>Inverter Installation Services</h3>
+                <p>Our inverter installation services are designed to meet the your unique needs, from small shops to large offices and residential homes.</p>
+            </div>
+            <div class="service" onclick="scrollToQuote()">
+                <img src="images/solar.jpg" alt="Service 3">
+                <h3>Solar System Installation Services</h3>
+                <p>We offer reliable and efficient solar equipment for industrial facilities and residential homes, ensuring minimal downtime and maximum productivity.</p>
+            </div>
+            <div class="service" onclick="scrollToQuote()">
+                <img src="images/fault.png" alt="Service 4">
+                <h3>Maintenance & fault checking services</h3>
+                <p>Regular maintenance services to keep your electrical systems in top condition and prevent unexpected issues. Keeping your home or facility dated.</p>
+            </div>
+        </div>
+    </section>
+    <section id="video-background">
+        <div class="video-overlay">
+            <h2>Encouraging Sustainability</h2>
+            <p> At Khabahle Electrical and Services, we are committed to promoting and implementing renewable energy solutions. Our mission is to create a sustainable future through innovative and efficient energy systems. Join us in our journey towards a greener tomorrow.</p>
+        </div>
+        <video autoplay muted loop playsinline id="background-video">
+            <source src="images/drone.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
+        </video>
+    </section>
+    <section id="projects">
+        <h2>Our Projects</h2>
+        <div class="mood-board">
+            <div class="mood-image">
+                <img src="images/isgubhu.jpg" alt="Project 1">
+            </div>
+            <div class="mood-image">
+                <img src="images/interior.jpg" alt="Project 2">
+            </div>
+            <div class="mood-image">
+                <img src="images/interior2.png" alt="Project 3">
+            </div>
+            <div class="mood-image">
+                <img src="images/inverter.jpg" alt="Project 4">
+            </div>
+            <div class="mood-image">
+                <img src="images/inverter2.jpg" alt="Project 5">
+            </div>
+            <div class="mood-image">
+                <img src="images/roof.jpg" alt="Project 6">
+            </div>
+            <div class="mood-image">
+                <img src="images/gal1.jpg" alt="Project 7">
+            </div>
+            <div class="mood-image">
+                <img src="images/solar.jpg" alt="Project 8">
+        </div>
+    </section>   
+    <section id="quote">
+        <h2>Get an instant free quote</h2>
+        <button onclick="openQuoteLink()">Get Quote</button>
+    </section>
+    <section id="team">
+        <h2>Top Members</h2>
+        <div class="team-member">
+            <img src="images/Nkosinathi.png" alt="Team Member 1">
+            <div class="member-info">
+                <h3>Nkosinathi</h3>
+                <p>Field Engineer</p>
+            </div>
+            <div class="team-member">
+                <img src="images/Thube.png" alt="Team Member 1">
+                <div class="member-info">
+                    <h3>Thube</h3>
+                    <p>Lead Marketer</p>
+                </div>
+        <!-- Add more team members as needed -->
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <div class="contact-info">
+            <div class="contact-item">
+                <h3>Location</h3>
+                <p>Durban, South Africa</p>
+            </div>
+            <div class="contact-item">
+                <h3>Email</h3>
+                <p><a href="mailto:khabahleelectrical@gmail.com">khabahleelectrical@gmail.com</a></p>
+            </div>
+            <div class="contact-item">
+                <h3>Cell Number</h3>
+                <p><a href="tel:+27813944582">+27 (81) 394-4582</a></p>
+            </div>
+        </div>
+    </section>
+    <footer id="footer">
+        <p>&copy; 2024 Khabahle Electrical and Services. All rights reserved.</p>
+    </footer>       
+    <script src="script.js"></script>
+</body>
+</html>
